@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+/**
+* main - prints program name
+* @argc: the number of arguments
+* @argv: an array containing the programs's arguments
+* Return: 0 always for success
+*/
+
+int main(int argc, char *argv[])
+
