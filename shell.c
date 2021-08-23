@@ -12,7 +12,7 @@ int execute(char **args, char **front);
 /**
  * main - Runs a simple UNIX command line intepretor
 * @argc: number of arguments passed to the program
-* @argv: an array of arguments 
+* @argv: an array of arguments
 * Return: The return value of the executed command
 */
 int main(int argc, char *argv[])
