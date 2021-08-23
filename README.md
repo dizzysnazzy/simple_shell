@@ -113,8 +113,8 @@ The operators `&&` and `||` have equal precedence, followed by `;`.
       * Upon failure, prints a message to `stderr`.
 
 ## Authors
-* Alex Yu <[AlexYu01](https://github.com/AlexYu01)> - Holberton School student
-* Brennan D Baraban <[bdbaraban](https://github.com/bdbaraban)> - Holberton School student
+* Dismas Kipchumba <[dizzysnazzy](https://github.com/dizzysnazzy)> - Holberton School student
+* Hanifa Chepkorir <[Hanifa-10](https://github.com/Hanifa-10)> - Holberton School student
 
 ## Acknowledgements
 **Shellby** emulates basic functionality of the **sh** shell. This README borrows form the Linux man pages [sh(1)](https://linux.die.net/man/1/sh) and [dash(1)](https://linux.die.net/man/1/dash).
