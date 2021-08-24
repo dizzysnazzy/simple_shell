@@ -31,7 +31,7 @@ environ = _copyenv();
 if (!enviro)
 exit(-100);
 
-if (argc !=1)
+if (argc != 1)
 {
 ret = proc_file_commands(argv[1], exe_ret);
 free_env();
