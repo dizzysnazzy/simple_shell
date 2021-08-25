@@ -1,7 +1,7 @@
 /*
  * File: alias_builtins.c
  * Auth: Dismas Kipchumba
- 	 Hanifa Chepkorir
+ * Hanifa Chepkorir
  */
 #include "shell.h"
 
