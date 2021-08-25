@@ -17,8 +17,8 @@ char *error_127(char **args);
  */
 char *error_126(char **args)
 {
-	char *error, *hist_str;
-	int len;
+	char *error, *hist_str, *name;
+	int len, hist;
 
 	hist_str = _itoa(hist);
 	if (!hist_str)
@@ -50,8 +50,8 @@ char *error_126(char **args)
  */
 char *error_127(char **args)
 {
-	char *error, *hist_str;
-	int len;
+	char *error, *hist_str, *name;
+	int len, hist;
 
 	hist_str = _itoa(hist);
 	if (!hist_str)

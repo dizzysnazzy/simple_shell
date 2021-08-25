@@ -26,7 +26,7 @@ int proc_file_commands(char *file_path, int *exe_ret)
 	unsigned int old_size = 120;
 	char *line, **args, **front;
 	char buffer[120];
-	int ret;
+	int ret, hist;
 
 	hist = 0;
 	file = open(file_path, O_RDONLY);
@@ -101,8 +101,8 @@ int proc_file_commands(char *file_path, int *exe_ret)
 
 int cant_open(char *file_path)
 {
-	char *error, *hist_str;
-	int len;
+	char *error, *hist_str, *name;
+	int len, hist;
 
 	hist_str = _itoa(hist);
 	if (!hist_str)
