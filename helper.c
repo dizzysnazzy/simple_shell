@@ -82,7 +82,7 @@ void variable_replacement(char **line, int *exe_ret)
 			{
 				/* extract the variable name to search for */
 				for (k = j + 1; old_line[k] &&
-					          old_line[k] != '$' &&
+					     old_line[k] != '$' &&
 					     old_line[k] != ' '; k++)
 					;
 				len = k - (j + 1);
