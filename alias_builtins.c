@@ -23,7 +23,7 @@ int shellby_alias(char **args, char __attribute__((__unused__)) **front)
 {
 	alias_t *temp = aliases;
 	int i, ret = 0;
-	char *value, *name;
+	char *value;
 
 	if (!args[0])
 	{
@@ -68,7 +68,7 @@ void set_alias(char *var_name, char *value)
 {
 	alias_t *temp = aliases;
 	int len, j, k;
-	char *new_value, *name;
+	char *new_value;
 
 	*value = '\0';
 	value++;
@@ -102,7 +102,7 @@ void set_alias(char *var_name, char *value)
  */
 void print_alias(alias_t *alias)
 {
-	char *alias_string, *name;
+	char *alias_string;
 	int len = _strlen(alias->name) + _strlen(alias->value) + 4;
 
 	alias_string = malloc(sizeof(char) * (len + 1));
@@ -127,7 +127,7 @@ char **replace_aliases(char **args)
 {
 	alias_t *temp;
 	int i;
-	char *new_value, *name;
+	char *new_value;
 
 	if (_strcmp(args[0], "alias") == 0)
 		return (args);

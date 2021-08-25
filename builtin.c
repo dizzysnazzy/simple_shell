@@ -20,7 +20,6 @@ int shellby_help(char **args, char __attribute__((__unused__)) **front);
  */
 int (*get_builtin(char *command))(char **args, char **front)
 {
-	char *name;
 	builtin_t funcs[] = {
 		{ "exit", shellby_exit },
 		{ "env", shellby_env },
@@ -176,7 +175,6 @@ int shellby_cd(char **args, char __attribute__((__unused__)) **front)
  */
 int shellby_help(char **args, char __attribute__((__unused__)) **front)
 {
-	char *name;
 	if (!args[0])
 		help_all();
 	else if (_strcmp(args[0], "alias") == 0)

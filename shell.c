@@ -17,7 +17,7 @@ int execute(char **args, char **front);
 */
 int main(int argc, char *argv[])
 {
-int ret = 0, retn, hist;
+int ret = 0, retn;
 int *exe_ret = &retn;
 char *prompt = "$", *new_line = "\n";
 
