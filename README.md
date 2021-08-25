@@ -122,5 +122,5 @@ The operators `&&` and `||` have equal precedence, followed by `;`.
 This project was written as part of the curriculum for Holberton School. Holberton School is a campus-based full-stack software engineering program that prepares students for careers in the tech industry using project-based peer learning. For more information, visit [this link](https://www.holbertonschool.com/).
 
 <p align="center">
-  <img src="http://www.holbertonschool.com/holberton-logo.png">
-  </p>
+ <img src="https://lh3.googleusercontent.com/dGNCpJSFY19ck4PkKuIL3ckLjPElmmvUQJSRVNcblB91ua2Oe1_bNhKL3TznvHhitRNB2Q7xoHj2ufbjL1STlIL8XfeGIde4fw=s0" alt="ALX School logo">
+</p>
