@@ -28,7 +28,7 @@ signal(SIGINT, sig_handler);
 
 *exe_ret = 0;
 environ = _copyenv();
-if (!enviro)
+if (!environ)
 exit(-100);
 
 if (argc != 1)

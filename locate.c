@@ -144,4 +144,3 @@ list_t *get_path_dir(char *path)
 
 	return (head);
 }
-© 2021 GitHub, Inc.
