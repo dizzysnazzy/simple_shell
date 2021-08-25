@@ -49,6 +49,7 @@ int shellby_env(char **args, char __attribute__((__unused__)) **front)
  * Return: If an error occurs - -1.
  *         Otherwise - 0.
  */
+
 int shellby_setenv(char **args, char __attribute__((__unused__)) **front)
 {
 	char **env_var = NULL, **new_environ, *new_value;
@@ -102,6 +103,7 @@ int shellby_setenv(char **args, char __attribute__((__unused__)) **front)
  * Return: If an error occurs - -1.
  *         Otherwise - 0.
  */
+
 int shellby_unsetenv(char **args, char __attribute__((__unused__)) **front)
 {
 	char **env_var, **new_environ;

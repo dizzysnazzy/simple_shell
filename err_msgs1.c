@@ -17,6 +17,7 @@ char *error_2_syntax(char **args);
  *
  * Return: The error string.
  */
+
 char *error_env(char **args)
 {
 	char *error, *hist_str;
@@ -52,6 +53,7 @@ char *error_env(char **args)
  *
  * Return: The error string.
  */
+
 char *error_1(char **args)
 {
 	char *error;
@@ -74,6 +76,7 @@ char *error_1(char **args)
  *
  * Return: The error string.
  */
+
 char *error_2_exit(char **args)
 {
 	char *error, *hist_str;
@@ -108,6 +111,7 @@ char *error_2_exit(char **args)
  *
  * Return: The error string.
  */
+
 char *error_2_cd(char **args)
 {
 	char *error, *hist_str;

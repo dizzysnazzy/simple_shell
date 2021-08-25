@@ -13,6 +13,7 @@ char **_getenv(const char *var);
 /**
  * free_env - Frees the the environment copy.
  */
+
 void free_env(void)
 {
 	int index;
@@ -29,6 +30,7 @@ void free_env(void)
  * Return: If the environmental variable does not exist - NULL.
  *         Otherwise - a pointer to the environmental variable.
  */
+
 char **_getenv(const char *var)
 {
 	int index, len;
@@ -49,6 +51,7 @@ char **_getenv(const char *var)
  * Return: If an error occurs - NULL.
  *         O/w - a double pointer to the new copy.
  */
+
 char **_copyenv(void)
 {
 	char **new_environ;
